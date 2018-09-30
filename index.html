@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <a class="navbar-brand title" href="#">ATLAS <span>AI</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,25 +48,105 @@
         </ul>
       </div>
     </nav>
+    <div class="navbar-padding"></div>
     
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container center">
         <h1 class="title title-large">ATLAS <span>AI</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor orci at lectus venenatis accumsan. Donec rutrum, velit eu tempus aliquam, est odio auctor ante, vel egestas diam magna faucibus orci. Nam vel ullamcorper mauris. Proin finibus ipsum sapien, vel consectetur tellus ultricies a. </p>
+        <p class="title-sub">Interactive tutorials for learning the systems behind Game AI and case studies of advanced AI.</p>
       </div>
     </div>
-
-    <!-- Jumbotron -->
-    <div class="show-on-scroll jumbotron jumbotron-fluid">
+    
+    <!-- Basics -->
+    <div class="container-fluid">
       <div class="container">
-        <h1 class="title title-large">ATLAS <span>AI</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor orci at lectus venenatis accumsan. Donec rutrum, velit eu tempus aliquam, est odio auctor ante, vel egestas diam magna faucibus orci. Nam vel ullamcorper mauris. Proin finibus ipsum sapien, vel consectetur tellus ultricies a. </p>
+        <div class="row">
+          <div class="col-lg-8 col-sm-12">
+            <h2 class="section-header">Basics</h2><hr>
+            <p class="section-sub">Learn the foundations of Game AI through interactive tutorials written for new and veteran developers alike.</p>
+          </div>
+        </div>
+        <div class="row center">
+          <a href="#" class="col-lg-4 tut-promo">
+            <h3>State Machines</h3>
+            <p>Introduction</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+          <a href="#" class="col-lg-4 border-left border-right tut-promo">
+            <h3>State Machines</h3>
+            <p>Intermediate</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+          <a href="#" class="col-lg-4 tut-promo">
+            <h3>State Machines</h3>
+            <p>Advanced</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Graph Theory -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12">
+            <h2 class="section-header">Graph Theory</h2><hr>
+            <p class="section-sub">Utilizing graphs to their maximum potential. Navigation, utility functions, searching, and more.</p>
+          </div>
+        </div>
+        <div class="row center">
+          <a href="#" class="col-lg-4 tut-promo">
+            <h3>Searching</h3>
+            <p>Introduction</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+          <a href="#" class="col-lg-4 border-left border-right tut-promo">
+            <h3>Navigation</h3>
+            <p>Intermediate</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+          <a href="#" class="col-lg-4 tut-promo">
+            <h3>Another Graph Bit</h3>
+            <p>Advanced</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Case Studies -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12">
+            <h2 class="section-header">Case Studies</h2><hr>
+            <p class="section-sub">Advanced examples demonstrating the power of Game AI by examining their core systems.</p>
+          </div>
+        </div>
+        <div class="row center">
+          <a href="#" class="col-lg-4 tut-promo">
+            <h3>Flocking</h3>
+            <p>Introduction</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+          <a href="#" class="col-lg-4 border-left border-right tut-promo">
+            <h3>Steering Behaviors</h3>
+            <p>Intermediate</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+          <a href="#" class="col-lg-4 tut-promo">
+            <h3>Another Case Study</h3>
+            <p>Advanced</p>
+            <p class="tut-learn-more">Learn More</p>
+          </a>
+        </div>
       </div>
     </div>
     
     <!-- JS Resources -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="./assets/js/atl-ai.js"></script>

@@ -21,6 +21,10 @@ body {
   vertical-align: middle;
 }
 
+.navbar-padding {
+  margin-top: 64px;:
+}
+
 .title {
   font-weight: 700;
   letter-spacing: -0.11em;
@@ -30,10 +34,16 @@ body {
   letter-spacing: 0px;
   font-size: 0.8em;
   font-weight: 200;
+  vertical-align: 2px;
+}
+
+.title-sub {
+  font-weight: 100;
+  font-size: 1.8em;
 }
 
 .title-large {
-  font-size: 4em;
+  font-size: 6em;
 }
 
 .dropdown-sub-item {
@@ -44,10 +54,46 @@ body {
   outline: none;
 }
 
-.jumbotron {
-  height: 1000px;
-}
-
 .show-on-scroll {
   opacity: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.section-header {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 4em;
+}
+
+.section-sub {
+  font-weight: 100;
+  font-size: 1.3em;
+}
+
+hr {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.tut-promo {
+  padding: 50px;
+  color: #000;
+  transition: 0.2s;
+}
+
+.tut-learn-more {
+  color: #007bff;
+  transition: 0.2s;
+}
+
+.tut-promo:hover {
+  text-decoration: none !important;
+  color: #666;
+}
+
+.tut-promo:hover .tut-learn-more {
+  color: #0056b3;
 }
